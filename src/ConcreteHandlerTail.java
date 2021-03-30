@@ -10,6 +10,6 @@ public class ConcreteHandlerTail extends Observable implements Handler{
 		System.out.println("- This gift has wrong size: ");
 		gift.print();
 		setChanged();
-		notifyObserver(); 
+		notifyObservers(); 
 	}
 }
