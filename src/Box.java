@@ -6,6 +6,6 @@ public class Box extends Decorator {
 	@Override
 	public void print() {
 		super.print();
-		System.out.print("I am a Box, this is my print method working");
+		System.out.println("I am a Box, this is my print method working");
 	}
 }

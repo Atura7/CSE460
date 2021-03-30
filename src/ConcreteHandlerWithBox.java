@@ -1,4 +1,3 @@
-import javax.swing.Box;
 
 public class ConcreteHandlerWithBox implements Handler{
 	
@@ -17,7 +16,7 @@ public class ConcreteHandlerWithBox implements Handler{
 		if(gift.getSize() > 10) {
 			Box box = new Box(); 
 			box.add(gift); 
-			System.out.println("- I create a new Boc for a gift as follows:"); 
+			System.out.println("- I create a new Box for a gift as follows:"); 
 			box.print();
 		}
 		else {
